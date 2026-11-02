@@ -1,0 +1,14 @@
+# See https://github.com/github/linguist
+*.md linguist-documentation
+*.jpg binary
+
+node_modules/* linguist-vendored
+*.min.js linguist-generated
+
+vendor/* linguist-vendored
+**/*.go linguist-detectable
+*.htm linguist-vendored
+
+*.min.css linguist-generated   
+*.go linguist-detectable
+*.yml linguist-detectable=false
