@@ -1,0 +1,8 @@
+*.dylib
+go.sum
+*.exe
+*.so
+*.out
+vendor/
+*.exe~
+*.test
